@@ -1,6 +1,12 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 
@@ -43,9 +49,118 @@
 .buttons {
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 .icons{
     height: 4.5vh;    
 }
+
+.container-addList{
+    background-color: #D9D9D9;
+    width: 90vw;
+    height: 80vh;
+    max-width: 900px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+
+
+.container-title, .container-timer{
+    height: 13%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.title{
+    background-color: #348D6D;
+    height: 100%;
+    border: none;
+    
+}
+
+.container-description{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.description{
+    background-color: #348D6D;
+    height: 100%;
+    border: none;
+    
+}
+
+.timer{
+    background-color: #348D6D;
+    height: 100%;
+    border: none;
+}
+
+.control{
+    display: flex;
+    margin-top: 25px; 
+    width: 80%;
+    justify-content: space-between;
+}
+
+
+
+input{
+    font-size: 1rem;
+    outline-color:#15382b;
+    text-indent: 30px;
+}
+
+textarea{
+    font-size: 1rem;
+    outline-color:#15382b;
+    text-indent: 30px;
+}
+
+
+textarea::placeholder{
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 1.3rem;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 1.3rem;
+    
+}
+input[type="date"]{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
